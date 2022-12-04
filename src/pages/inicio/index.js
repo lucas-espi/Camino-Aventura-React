@@ -1,7 +1,7 @@
 import React, {useEffect,useState} from "react";
 import {getFirestore, getDocs, collection, } from "firebase/firestore";
 import './style.css'
-import Cart from "./component";
+import Card from "./component";
 import Filter from "../../components/filter";
 
 
@@ -46,7 +46,7 @@ const Inicio = () => {
                       <div id='containerCartInicio'>
                         {
                             product.map((prod)=>(
-                                <Cart key={prod.id} item={prod}/>
+                                <Card key={prod.id} item={prod}/>
                                 ))
                             } 
                         </div>

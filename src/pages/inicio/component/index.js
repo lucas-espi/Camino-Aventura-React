@@ -3,7 +3,7 @@ import Button from "../../../components/assets/buttons";
 import { useNavigate} from "react-router-dom";
 
 
-const Cart = ({item}) =>{
+const Card = ({item}) =>{
    
     
     const {id,nombre,categoria,precio,imagenes,marca}= item
@@ -30,4 +30,4 @@ const Cart = ({item}) =>{
         </div>
     )
 }
-export default Cart
+export default Card
