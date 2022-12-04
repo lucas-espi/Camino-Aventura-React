@@ -1,0 +1,29 @@
+.input-serch{
+    margin: .1rem auto;
+    background-color: #2e80b65e;
+    width: 26rem;
+    padding: .4rem 2rem;
+    border-radius: .2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.serch-label{
+    font-size: 1.2rem;
+}
+
+.serch-input{
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: .3rem;
+    background-color: rgb(200, 220, 236);
+}
+
+.serch-input::placeholder{
+    color: rgb(119, 119, 119);
+}
+
+.serch-input:focus{
+    outline: 0 none;
+}

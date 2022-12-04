@@ -1,0 +1,80 @@
+.container__cart--box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content:center; */
+    width: 90%;
+    /* height: 100vh; */
+    margin: auto;
+}
+
+.prev{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-cart{
+    width: 100%;
+    margin-top: 1.2rem;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: .3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.box__img--cart{
+    height: 7rem;
+}
+
+.box__img--cart img {
+    height: 100%;
+}
+
+/* --------------------------- */
+
+.box-btn{
+    display: flex;
+    flex-direction: column;
+    margin: 3rem auto;
+}
+.btn-vaciar{
+    background-color: black;
+    color: white;
+    font-size: 1.3rem;
+    padding: .25rem .6rem;
+    border-radius: .2rem;
+    border: solid transparent;
+    cursor: pointer;
+    margin: 2rem 0;
+}
+.btn-vaciar:hover {
+    background-color: #912920;
+    transition: .3s;
+}
+
+.btn-comprar{
+    background-color: #16A085;
+    color: white;
+    font-size: 1.7rem;
+    padding: .25rem .6rem;
+    border-radius: .2rem;
+    border: solid transparent;
+    cursor: pointer;
+    margin: 2rem 0;
+}
+
+.btn__delet{
+    background-color: rgb(124, 46, 46);
+    color: white;
+    border-radius: .2rem;
+    border: solid transparent;
+    padding: .4rem;
+}

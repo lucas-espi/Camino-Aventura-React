@@ -1,0 +1,15 @@
+.btn-primary{
+    width: 7.5rem;
+    padding: .4rem .2rem;
+    font-size: .8rem;
+    font-weight: bolder;
+    color: white;
+    border: solid transparent 1px;
+    border-radius: .3rem;
+    cursor: pointer;
+    background-color: rebeccapurple;
+}
+
+.btn-primary:hover{
+    background-color: rgb(117, 73, 161);
+}
