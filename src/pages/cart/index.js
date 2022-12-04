@@ -34,7 +34,7 @@ const Cart = () =>{
     } else {
         return(
             <>
-            <h1>Hola Cart</h1>
+            <h1 className="title-cart">Carrito de compras <i class="fa-solid fa-cart-shopping"></i></h1>
             <div className="container__cart--box">
                 {cart.map((prod)=>(
                     <div key={prod.id} className="card-cart" >

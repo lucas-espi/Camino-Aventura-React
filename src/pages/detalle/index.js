@@ -22,7 +22,7 @@ const Detalle = () =>{
 
     return(
         <>
-        <h1 className="title-detalle">{nombre}</h1>
+        <h1 className="title-detalle">{nombre}    <img className="img-title-detalle" src="https://cdn.icon-icons.com/icons2/2197/PNG/512/outdoor_camp_adventure_boots_icon_133947.png" alt="Logo detalle"/></h1>
         <div className="containerCartDetalle">
             <div className="box__detalle">
 

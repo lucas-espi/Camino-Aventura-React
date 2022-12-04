@@ -6,6 +6,9 @@
     max-width: 90%;
     border-radius: .2rem;
 }
+.img-title-detalle{
+    height: 2rem;
+}
 .containerCartDetalle{
     width: 100%;
     height: auto;
